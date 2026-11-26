@@ -1,3 +1,3 @@
 # Anamika weds Priyam
 
-The invitation frontend lives in `dist/`. Open `dist/index.html` for the static invitation. For personalized RSVP links and the dashboard, see [the backend setup](backend/README.md).
+This repository contains the guest-facing wedding invitation. GitHub Pages serves the root index. The RSVP server and administrator dashboard are maintained in a separate private repository.
