@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anamika weds Priyam</title>
+  <script>
+    const invitation = new URL('dist/', window.location.href);
+    invitation.search = window.location.search;
+    invitation.hash = window.location.hash;
+    window.location.replace(invitation);
+  </script>
+</head>
+<body>
+  <p><a href="dist/">Open Anamika and Priyam's wedding invitation</a></p>
+</body>
+</html>
